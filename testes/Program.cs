@@ -11,7 +11,7 @@ namespace testes
         public bool Quebra_Codigo = false;
         static void Main(string[] args)
         {
-            Console.WriteLine("Versão: 0.0.1");
+            Console.WriteLine("Versão: 0.0.2");
 
 
         }

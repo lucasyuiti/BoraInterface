@@ -25,7 +25,7 @@ namespace testes
         {
             x.Hp = x.Hp - y.DanoBase;
             y.Hp = y.Hp - x.DanoBase;
-            
+            if (x.Hp == y.Hp) return "Empate!!";
             if (x.Hp > y.Hp) return "Jogador 1 venceu";
             else return "jogador 2 venceu";
         }
